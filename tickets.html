@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="Logo">CWC 2025</div>
+        <nav>
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="teams.html">Teams</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="tickets.html" class="active">Tickets</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="ticket-page">
+        <h1>Buy your tickets for CWC 2025</h1>
+        <p>Secure your spot for the most exciting cricket matches of the year!</p>
+
+    <form class="ticket-form">
+        <label for="name">Full Name: </label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-mail Address: </label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="match">Select Match</label>
+        <select id="match" name="match" required>
+            <option value="">--Select Match--</option>
+            <option value="Bangladesh vs Sri Lanka">Bangladesh vs Sri Lanka</option>
+            <option value="Pakistan vs England">Pakistan vs England</option>
+            <option value="India vs Australia">India vs Australia</option>
+        </select>
+
+        <label for="quantity">Number of tickets: </label>
+        <input type="number" id="quantity" name="quantity" min="1" max="4" required>
+
+        <label for="payment">Payment Method: </label>
+        <select id="payment" name="payment" required>
+            <option value="credit">Credit Card</option>
+            <option value="debit">Debit Card</option>
+            <option value="paypal">PayPal</option>
+        </select>
+
+        <button type="submit">Purchase Ticket</button>
+    </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">CWC 2025</div>
+            <p>&copy; 2025 Cricket World Cup. All rights reserved.</p>
+            <ul class="social-links">
+                <li><a href="#"><img src="images/fb.png" alt="Facebook"></a></li>
+            <li><a href="#"><img src="images/tw.png" alt="Twitter"></a></li>
+            <li><a href="#"><img src="images/insta.png" alt="Instagram"></a></li>
+            <li><a href="#"><img src="images/yt.png" alt="YouTube"></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>Follow us on social media for the latest updates!</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

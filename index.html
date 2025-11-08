@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket World Cup 2025</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="Logo">CWC 2025</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="teams.html">Teams</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="tickets.html">Tickets</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <img src="images/wc.png" alt="Cricket World Cup 2025" class="wc-logo" />
+        <h1>Welcome to the Official Website of Cricket World Cup 2025</h1>
+        <p>Join us for the most exciting cricket tournament of the year!</p>
+        <div id="countdown">
+            <h2>Countdown to the World Cup</h2>
+            <div id="timer">
+                <span id="days">00</span> Days
+                <span id="hours">00</span> Hours
+                <span id="minutes">00</span> Minutes
+                <span id="seconds">00</span> Seconds
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule">
+        <h2>Match Schedule</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Match</th>
+                    <th>Venue</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>October 5, 2025</td>
+                    <td>Bangladesh vs Srilanka</td>
+                    <td>Lords</td>
+                </tr>
+                <tr>
+                    <td>October 6, 2025</td>
+                    <td>Pakistan vs England</td>
+                    <td>Cardif</td>
+                </tr>
+                <!-- More matches can be added here -->
+            </tbody>
+        </table>
+
+    </section>
+
+    <section id="teams">
+        <h2>Participating Teams</h2>
+
+        <div class="slideshow-container">
+            <div class="slide-fade">
+                <div class="team">
+                    <img src="images/australia.png" alt="Australia">
+                    <p>Australia</p>
+                </div>
+                <div class="team">
+                    <img src="images/bd.png" alt="Bangladesh">
+                    <p>Bangladesh</p>
+                </div><div class="team">
+                    <img src="images/england.png" alt="England">
+                    <p>England</p>
+                </div>
+                <div class="team">
+                    <img src="images/india.png" alt="India">
+                    <p>India</p>
+                </div>
+            </div>
+
+            <div class="slide-fade">
+                <div class="team">
+                    <img src="images/pakistan.png" alt="Pakistan">
+                    <p>Pakistan</p>
+                </div>
+                <div class="team">
+                    <img src="images/sl.png" alt="Srilanka">
+                    <p>Srilanka</p>
+                </div><div class="team">
+                    <img src="images/southafrica.png" alt="South Africa">
+                    <p>South Africa</p>
+                </div>
+                <div class="team">
+                    <img src="images/wi.png" alt="West Indies">
+                    <p>West Indies</p>
+                </div>
+            </div>
+
+            <button class="prev" type="button" onclick="plusSlides(-1)">&#10094;</button>
+            <button class="next" type="button" onclick="plusSlides(1)">&#10095;</button>
+        </div>
+
+        <div class="dots" style="text-align: center;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+
+        </div>
+    </section>
+
+
+    <section id="tickets">
+        <div class="tickets-content">
+            <h2>Get your tickets now!</h2>
+            <p>Be a part of the action and witness your favourite teams compete for glory in the Cricket World Cup. <br>Hurry, seats are limited!</p>
+            <a href="tickets.html" class="ticket-btn">Buy Tickets</a>
+        </div>  
+    </section>
+
+    <section id="about">
+        <div class="about-content">
+            <h2>About the Cricket World Cup 2025</h2>
+            <p>The Cricket World Cup 2025 brings together the best cricketing nations to compete for the ultimate prize in the sport. Hosted in the United Kingdom, the tournament will feature thrilling matches, passionate fans, and unforgettable moments.</p>
+            <p>From legendary rivalries to the rise of new stars, this event promises to be a celebration of cricket's rich history and exciting future. Whether your at the stadium or watching from home, get ready for a month of world-class cricket!</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">CWC 2025</div>
+            <p>&copy; 2025 Cricket World Cup. All rights reserved.</p>
+            <ul class="social-links">
+                <li><a href="#"><img src="images/fb.png" alt="Facebook"></a></li>
+            <li><a href="#"><img src="images/tw.png" alt="Twitter"></a></li>
+            <li><a href="#"><img src="images/insta.png" alt="Instagram"></a></li>
+            <li><a href="#"><img src="images/yt.png" alt="YouTube"></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>Follow us on social media for the latest updates!</p>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
